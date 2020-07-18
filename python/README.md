@@ -46,3 +46,6 @@ Tuples can be used as keys if they contain only strings, numbers, or tuples; if 
 
 ## Module
 A program doesn’t run any faster when it is read from a .pyc file than when it is read from a .py file; the only thing that’s faster about .pyc files is the speed with which they are loaded.
+
+## Resources
+[python zip](https://realpython.com/python-zip-function/)

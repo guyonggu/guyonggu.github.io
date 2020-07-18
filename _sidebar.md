@@ -1,3 +1,3 @@
 * Notes
-    * [python](python/index "Python")
+    * [python](python/ "Python")
     * [javascript](javascript/index)
