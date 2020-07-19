@@ -1,6 +1,3 @@
----
-title: notes for Fluent Python
----
 immutable: *number*, *string*, *tuple*, *bytes* 
 mutable: *list*, *dict*, *set*, *byte array*
 sequence: list, string

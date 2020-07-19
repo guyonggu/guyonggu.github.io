@@ -1,6 +1,3 @@
----
-title: Async
----
 ## Future
 
 python 中的 Future 相当于 js 中的 Promise ，功能是把”事件发生“ 与”回调函数“ 分离。不仅可以先注册callback, 等“事件发生”（Future中是set_result, js中是resolve)后自动调用一个或多个callback; 还可以在 set_result后在注册callback. 内部通过保存”事件发生“这一状态来实现 Deferred 效果。

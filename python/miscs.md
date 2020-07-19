@@ -1,6 +1,3 @@
----
-title: 杂记
----
 types分类
 
 immutable: number, string, tuple
