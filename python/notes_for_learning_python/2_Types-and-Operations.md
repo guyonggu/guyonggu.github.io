@@ -208,9 +208,6 @@ happens on the left.
 
 The effect of `L.append(X)`  is similar to `L+[X]`, but while the former changes L  in place, the latter makes a new list.
 
-In Python 3.X, this has changed: magnitude comparison of mixed types
-raises an exception instead of falling back on the fixed cross-type ordering.
-
 L.sort() vs. sorted  
 built-in tools: reversed
 
