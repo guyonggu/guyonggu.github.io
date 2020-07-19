@@ -1,3 +1,4 @@
-* Notes
-    * [python](python/ "Python")
-    * [javascript](javascript/index)
+&ensp; **Notes**
+
+* [python](python/ "Python")
+* [javascript](javascript/ "Javascript")

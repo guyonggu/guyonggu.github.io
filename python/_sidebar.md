@@ -1,5 +1,5 @@
-**Python**
-* [Introduction](python/)
+&ensp;**Python**
+* [Overview](python/)
 * Notes for "Learning Python"
     * [Preliminaries](python/notes_for_learning_python/1_Prelimiraries.md)
     * [Types and Operations](python/notes_for_learning_python/2_Types-and-Operations.md)
