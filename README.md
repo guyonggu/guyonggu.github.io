@@ -1,3 +1,4 @@
-# Headline
+# Description
+My personal blog, mainly used for notes.
 
-> An awesome project.
+> Keep reading, writing, thinking. 

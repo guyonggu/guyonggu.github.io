@@ -1,2 +1,2 @@
-* [Home](../ ':ignore :target=_self')
+* [Home](/)
 * [GitHub](https://github.com/guyonggu/guyonggu.github.io)

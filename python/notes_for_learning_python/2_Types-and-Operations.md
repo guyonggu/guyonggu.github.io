@@ -1,4 +1,3 @@
-[toc]
 # Types and Operations
 Objects are pieces of memory, with values and sets of associated operations. Everything we process in Python programs is a kind of obj 
 
@@ -8,7 +7,7 @@ The Python Conceptual Hierarchy:
 3. Statements contain expressions.
 4. Expressions create and process objects.
 
-![Table 4-1](https://raw.githubusercontent.com/guyonggu/images/master/default/2018-09-03-12-05-36.png)
+![Table 4-1](../images/2018-09-03-12-05-36.png)
 
 In formal terms, this means that Python is dynamically typed , a model that keeps track of types for you automatically instead of requiring declaration code, but it is also strongly typed, a constraint that means you can perform on an object only operations that are valid for its type.
 
@@ -49,7 +48,7 @@ Decimal, Fraction, booleans
 As you’ll learn, in Python, we code to object interfaces (operations supported), not to types.
 
 ## Numbers
-![Table 5-1](https://raw.githubusercontent.com/guyonggu/images/master/default/2018-09-03-12-09-34.png)
+![Table 5-1](../images/2018-09-03-12-09-34.png)
 
 Floating-point numbers are implemented as C “doubles” in standard CPython, and therefore get as much precision as the C compiler used to build the Python interpreter gives to doubles.
 
@@ -57,7 +56,7 @@ built-in calls: `hex(I)`, `oct(I)`, `bin(I)`, `int(str,base)`, `X.bit_length()`,
 
 Internally, complex numbers are implemented as pairs of floating-point numbers
 
-![Table 5-2](https://raw.githubusercontent.com/guyonggu/images/master/default/2018-09-03-12-10-38.png)
+![Table 5-2](../images/2018-09-03-12-10-38.png)
 
 Comparison operators may be chained: X < Y < Z  produces the same result as X < Y and Y < Z .
 ```python
@@ -126,9 +125,9 @@ print(s[1:-1:-1]); # '', not 'ba'
 weakref
 
 ## String
-![](https://raw.githubusercontent.com/guyonggu/images/master/default/2018-09-03-12-13-34.png)
+![](../images/2018-09-03-12-13-34.png)
 
-![Table 7-1](https://raw.githubusercontent.com/guyonggu/images/master/default/2018-09-03-16-34-23.png)
+![Table 7-1](../images/2018-09-03-16-34-23.png)
 String literal forms:
 * Single quotes: 'spa"m'
 * Double quotes: "spa'm"
@@ -141,7 +140,7 @@ String literal forms:
 In fact, 3.X defines str strings formally as sequences of Unicode code
 points, not bytes, to make this clear. There’s more on how strings are stored internally in Chapter 37 if you care to know.
 
-![Table 7-2](https://raw.githubusercontent.com/guyonggu/images/master/default/2018-09-03-12-14-52.png)
+![Table 7-2](../images/2018-09-03-12-14-52.png)
 
 Some escape sequences allow you to embed absolute binary values into the characters of a string.
 
@@ -187,8 +186,8 @@ Types Share Operation Sets by Categories:
 
 ## Lists and Dictionaries
 
-![](https://raw.githubusercontent.com/guyonggu/images/master/default/2018-09-03-12-17-54.png)
-![Table 8-1](https://raw.githubusercontent.com/guyonggu/images/master/default/2018-09-03-16-35-48.png)
+![](../images/2018-09-03-12-17-54.png)
+![Table 8-1](../images/2018-09-03-16-35-48.png)
 Slice assignment, the last operation in the preceding example, replaces an entire section of a list in a single step. Because it can be a bit complex, it is perhaps best thought of as a combination of two steps:
 1. Deletion. The slice you specify to the left of the = is deleted.
 2. Insertion. The new items contained in the iterable object to the right of the = are inserted into the list on the left, at the place where the old slice was deleted.
@@ -217,7 +216,7 @@ built-in tools: reversed
 
 Like lists, dictionaries store object references (not copies, unless you ask for them explicitly)
 
-![Table 8-2](https://raw.githubusercontent.com/guyonggu/images/master/default/2018-09-03-12-18-20.png)
+![Table 8-2](../images/2018-09-03-12-18-20.png)
 
 keys  in 3.X returns an iterable  object, instead of a physical list
 Unlike lists, however, whenever you assign a new  dictionary key (one that hasn’t been assigned before) you create a new entry in the dictionary.
@@ -247,13 +246,13 @@ or the dictionary itself:
 OrderedDict
 
 ## Tuples, files and everything else
-![](https://raw.githubusercontent.com/guyonggu/images/master/default/2018-09-03-16-36-56.png)
-![Table 9-1](https://raw.githubusercontent.com/guyonggu/images/master/default/2018-09-03-12-18-57.png)
+![](../images/2018-09-03-16-36-56.png)
+![Table 9-1](../images/2018-09-03-12-18-57.png)
 
 As you can see, named tuples are a tuple/class/dictionary hybrid
  (In short, named tuples build new classes that extend the tuple type, inserting a property  accessor method for each named field that maps the name to its position)
 
-![Table 9-2](https://raw.githubusercontent.com/guyonggu/images/master/default/2018-09-03-12-03-26.png)
+![Table 9-2](../images/2018-09-03-12-03-26.png)
 
 Empty lines in the file come back as strings containing just a newline character, not as empty strings.
 ```

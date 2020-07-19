@@ -1,4 +1,3 @@
-[toc]
 # Statements and Syntax
 ## Assignments, Expressions, and Prints
 - Assignments create object references. (i.e. link a name with an object) They always create references to objects instead of copying the objects.
@@ -7,7 +6,7 @@
 
 Module imports, function and class definitions, for  loop variables, and function arguments are all implicit assignments.
 
-![Table 11-1](https://raw.githubusercontent.com/guyonggu/images/master/default/2018-09-03-13-40-51.png)
+![Table 11-1](../images/2018-09-03-13-40-51.png)
 
 sequence assignment—any sequence of names can be
 assigned to any sequence of values, and Python assigns the items one at a time by position. In fact, the original tuple and list assignment forms in Python have been generalized to accept any type of sequence (really, iterable) on the right as long as it is of the same length as the sequence on the left.

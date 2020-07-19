@@ -1,4 +1,3 @@
-[toc]
 # Functions and Generators
 ## Function Basics
 * *def* is executable code. it’s legal (and even occasionally useful) to nest def statements inside if statements, while loops, and even other *def*s.
@@ -112,7 +111,7 @@ function argument lists. Somewhat asymmetrically, tuple unpacking assignment is 
 
 By default, arguments are matched by position, from left to right, and you must pass exactly as many arguments as there are argument names in the function header.
 
-![Table 18-1](https://raw.githubusercontent.com/guyonggu/images/master/default/2018-09-04-20-04-02.png)
+![Table 18-1](../images/2018-09-04-20-04-02.png)
 
 In a function call, arguments must appear in this order: any positional arguments or the  *iterable form, followed by any keyword arguments or the **dict form. If we see *iterable and **dict as being unpacked to positional arguments and keyword arguments, the order becomes: any positional arguments, followed by any keyword arguments. In a broad sense, there are only two arguments: positional and keyword.
 ```

@@ -1,4 +1,3 @@
-[toc]
 #  Part V. Modules and Packages
 Modules are processed with two statements and one important function:
 - import: Lets a client (importer) fetch a module as a whole
