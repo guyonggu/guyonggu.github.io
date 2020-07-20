@@ -30,6 +30,10 @@
         depth: 6,
         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
       },
+      pagination: {
+        crossChapter: true,
+        crossChapterText: true,
+  },
       maxLevel: 4,
       subMaxLevel: 2,
       loadNavbar: true,
@@ -41,5 +45,6 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
 </html>
