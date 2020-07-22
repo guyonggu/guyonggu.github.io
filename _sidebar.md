@@ -1,4 +1,5 @@
 &ensp; **Notes**
 
-* [python](python/ "Python")
-* [javascript](javascript/ "Javascript")
+* [Algorithm](algorithm/ "Algorithm")
+* [Python](python/ "Python")
+* [Javascript](javascript/ "Javascript")
