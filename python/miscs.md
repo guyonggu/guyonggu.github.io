@@ -1,16 +1,11 @@
-types分类
+## The Python Interpreter
+```python
+>>> -3//2
+-2
+>>> _ ** 2
+4
+```
 
-immutable: number, string, tuple
-mutable: list, dict, class-object
-Function arguments are passed by values: immutable objects are copied by value, while mutable objects are copied by aliasing.
-
-classes themselves are objects.
-
-Iterable, Iterator, Generator
-
-* Iterable: implementing iter() to return an iterator.
-* Iterator: implementing next() and using StopIteration to indicate the end of iteration.
-* Generator: a function returning an iterator.
 Thread
 * Lock 即 Mutex, RLock 是一种特殊的Lock, 在同一线程中可多次获取（需多次释放），支持 acquire() 和 release()
 * Condition是由一个主Lock (可以是RLock)和若干个 Waiter Lock 组成，除acquire(), release()外还支持wait(), notify()

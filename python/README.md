@@ -1,21 +1,50 @@
-### Numbers
-```python=
->>> -3//2
--2
->>> _ ** 2
-4
+
+## Common libraries
+math, random, re, time, timeit, profile, struct
+
+## Common builtin functions
+len, range, sum, map, filter, reduce, zip, sorted, isinstance, type, copy
+## 编码
+python使用unicode编码, 字符串以unicode储存在内存中. python区分字符串string和字节串bytes.
+
+```bash
+>>> b'ABC'.decode('ascii')
+'ABC'
+>>> b'\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8')
+'中文'
 ```
-### Strings
-```python=
+
+### Types Classification
+
+* immutable: number, string, tuple
+* mutable: list, dict, class-object
+
+Function arguments are passed by values: immutable objects are copied by value, while mutable objects are copied by aliasing.
+
+classes themselves are objects.
+
+### Iterable, Iterator, Generator
+
+* Iterable: implementing iter() to return an iterator.
+* Iterator: implementing next() and using StopIteration to indicate the end of iteration.
+* Generator: a function returning an iterator.
+
+### Slicing
+In s[i:j:k], if `i` or `j` is negative, the index is relative to the end of sequence `s`: `len(s) + i` or `len(s) + j` is substituted. But note that `-0` is still `0`.
+```python
 >>> s = "ab\\cdefg"
 >>> s[::-1] # In s[a:b:c], c must be nonzero
 'gfedc\\ba'
->>> print(s[::-1])
-gfedc\ba
 >>> s[-10:100]
 'ab\\cdefg'
 >>> len(s)
 8
+>>> s[-9:100:2]
+'a\\df'
+>>> s[1:-0:1]
+''
+>>> s[1:-1:1]
+'b\\cdef'
 ```
 
 ### Functions

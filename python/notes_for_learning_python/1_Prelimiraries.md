@@ -1,19 +1,6 @@
 # Preliminaries
 
-## Common libraries
-math, random, re, time, timeit, profile, struct
 
-## Common builtin functions
-len, range, sum, map, filter, reduce, zip, sorted isinstance, type, copy
-## 编码
-python使用unicode编码, 字符串以unicode储存在内存中. python区分字符串string和字节串bytes.
-
-```bash
->>> b'ABC'.decode('ascii')
-'ABC'
->>> b'\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8')
-'中文'
-```
 ## 赋值是引用赋值
 In one word, after `exp1 = exp2`, exp1 points to the same place as exp2. Python always follows a reference to an object whenever the reference is used.
 ```python
