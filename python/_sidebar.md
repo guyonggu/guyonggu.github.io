@@ -1,5 +1,6 @@
 &ensp;**Python**
 * [Overview](python/)
+* [Common Functions](python/common_functions.md)
 * [Input and Output](python/inOut.md)
 * Notes for "Learning Python"
     * [Preliminaries](python/notes_for_learning_python/1_Prelimiraries.md)

@@ -11,10 +11,10 @@
 6. Iterable, iterator, generator, comprehension
 
 ### Common libraries
-math, random, re, time, timeit, profile, struct, itertools
+math, random, re, time, timeit, profile, struct, itertools, functools, operator
 
 ### Common builtin functions
-dir, len, range, sum, map, filter, reduce, zip, sorted, isinstance, type, copy, next, enumerate, getattr, hasattr, setattr, iter, id, reversed, type, slice
+help, dir, len, range, sum, map, filter, reduce, zip, sorted, isinstance, type, copy, next, enumerate, getattr, hasattr, setattr, iter, id, reversed, type, slice
 ### 编码
 python使用unicode编码, 字符串以unicode储存在内存中. python区分字符串string和字节串bytes.
 
@@ -134,8 +134,14 @@ The hierarchy of python program structure:
 A program doesn’t run any faster when it is read from a .pyc file than when it is read from a .py file; the only thing that’s faster about .pyc files is the speed with which they are loaded.
 
 ## Resources
+### Articles
 [python zip](https://realpython.com/python-zip-function/)
 
 [python namespace scope](https://realpython.com/python-namespaces-scope/)
 
 [python lambda](https://realpython.com/python-lambda/)
+
+[python reduce](https://realpython.com/python-reduce-function/)
+
+### Tools
+[Python tutor: visualize execution](https://pythontutor.com)   (including c,c++,java,javascript)
