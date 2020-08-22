@@ -5,6 +5,10 @@
 >>> _ ** 2
 4
 ```
+## Pitfalls
+### index, slice
+`s[-1]` equals `s[len(s)-1]`, it does not cause error.
+### list is mutable
 
 Thread
 * Lock 即 Mutex, RLock 是一种特殊的Lock, 在同一线程中可多次获取（需多次释放），支持 acquire() 和 release()
