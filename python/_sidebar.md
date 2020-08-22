@@ -3,6 +3,7 @@
 * [Common Functions](python/common_functions.md)
 * [Input and Output](python/inOut.md)
 * [Scope, context and closure](python/scope.md)
+* [Notes for fluent Python](python/notes_for_fluent_python.md)
 * Notes for "Learning Python"
     * [Preliminaries](python/notes_for_learning_python/1_Prelimiraries.md)
     * [Types and Operations](python/notes_for_learning_python/2_Types-and-Operations.md)
