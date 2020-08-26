@@ -146,3 +146,7 @@ True
 >>> t3 is t1
 True
 ```
+
+string interning
+
+Instances of user-defined classes are mutable by default in Python -- as in most object-oriented languages. When creating your own objects, you have to be extra careful to make them immutable, if that is a requirement.

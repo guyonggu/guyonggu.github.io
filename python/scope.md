@@ -34,3 +34,5 @@ def f2(a):
     b = 9
 f2(3)
 ```
+
+`nonlocal` must bind an existing variable, while `global` can introduce new variable.
