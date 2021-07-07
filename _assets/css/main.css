@@ -1,0 +1,11 @@
+h1{
+  border-bottom: 3px double gray;
+}
+h2{
+  border-bottom: 3px gray;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
