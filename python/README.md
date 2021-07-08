@@ -1,4 +1,3 @@
-
 ## Key Points
 
 ### Important and hard points
