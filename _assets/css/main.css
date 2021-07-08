@@ -2,7 +2,7 @@ h1{
   border-bottom: 3px double gray;
 }
 h2{
-  border-bottom: 3px gray;
+  border-bottom: 1px solid gray;
 }
 .center{
   display: block;
