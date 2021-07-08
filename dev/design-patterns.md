@@ -1,6 +1,3 @@
----
-title: Design Patterns
----
 Google研院的Peter Norvig大叔总结了23个design pattern在lisp/python等函数式语言之下的对应物。
 
 引用如下

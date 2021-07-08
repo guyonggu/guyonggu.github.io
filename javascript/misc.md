@@ -1,6 +1,3 @@
----
-title: Js Others
----
 1. [jquery](http://api.jquery.com)
 [w3 tutorial](http://www.w3schools.com/jquery/default.asp)
 2. [underscore](http://underscorejs.org/)
