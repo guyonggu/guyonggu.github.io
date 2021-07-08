@@ -1,4 +1,4 @@
-## Javascript: Key points and Hard parts
+## Key points and Hard parts
 * types, values
 * scope, closure, this
 * prototype chain, class
